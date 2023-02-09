@@ -8,7 +8,7 @@ provider   "azurerm"   {
    location   =   "northeurope" 
  }
  #creating a virtual network
- resource   "azurerm_virtual_network"   "myvnet"   { 
+ resource   "azurerm_virtual_network"   "myvnet1"   { 
    name   =   "my-vnet" 
    address_space   =   [ "10.0.0.0/16" ] 
    location   =   "northeurope" 
